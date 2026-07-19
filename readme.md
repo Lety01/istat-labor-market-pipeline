@@ -46,6 +46,7 @@ Il sistema è suddiviso in due livelli principali: il *Data Processing Layer* (p
 ├── requirements.txt         # Elenco delle dipendenze per la riproducibilità dell'ambiente
 └── README.md                # Documentazione architetturale e descrizione del progetto (questo file)
 
+```
 
 ### ⚙️ Guida all'Installazione e Configurazione Locale
 
@@ -139,6 +140,7 @@ Appena premuto _Invio_, il browser si aprirà automaticamente all'indirizzo **`h
 
 
 
+
 ## 🔮 Roadmap e Implementazioni Future
 
 Questo progetto pone le basi per un'infrastruttura dati scalabile. Le evoluzioni pianificate per i prossimi rilasci mirano a trasformare la pipeline locale in un software di livello **production-ready**:
@@ -177,8 +179,6 @@ Questo progetto pone le basi per un'infrastruttura dati scalabile. Le evoluzioni
     
 -   **Implementazione:** Introduzione della libreria **Pytest** e di framework di validazione come **Great Expectations** per verificare automaticamente la conformità dello schema, l'assenza di valori nulli critici e il rispetto dei vincoli di dominio prima della fase di _Load_.
     
-
-```
 
 
 
